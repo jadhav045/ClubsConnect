@@ -1,0 +1,38 @@
+# Ignore everything inside client/node_modules
+/client/node_modules/
+
+/client/package-lock.json
+/client/.env
+# Logs
+/client/logs
+/client/*.log
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/pnpm-debug.log*
+/client/lerna-debug.log*
+
+# Build outputs
+/client/dist/
+/client/dist-ssr/
+/client/*.local
+
+# Editor & system files
+/client/.vscode/*
+!/client/.vscode/extensions.json
+/client/.idea
+/client/.DS_Store
+/client/*.suo
+/client/*.ntvs*
+/client/*.njsproj
+/client/*.sln
+/client/*.sw?
+
+
+# Server 
+/server/node_modules/
+/server/package-lock.json
+/server/node_modules
+/server/.env
+
+
